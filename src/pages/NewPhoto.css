@@ -1,0 +1,54 @@
+.new-photo {
+    margin: 0 auto;
+    max-width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.new-photo h3 {
+    font-size: 30px;
+}
+
+.new-photo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.new-photo-form label {
+    font-weight: bold;
+}
+
+.new-photo-form input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.new-photo-form button {
+    background-color: #02cb83;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    max-width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.new-photo-form .error {
+    background-color: #ff5555;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
+
+.new-photo-form .success {
+    background-color: #23b89a;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+}
